@@ -31,6 +31,7 @@
         @RenderBody()
         <hr />
         <footer>
+            ConnectionString= @System.Configuration.ConfigurationManager.ConnectionStrings["AzSampleStudentsEntities2"]
             <p>&copy; @DateTime.Now.Year - My ASP.NET Application</p>
         </footer>
     </div>
