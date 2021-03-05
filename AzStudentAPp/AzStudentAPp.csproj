@@ -181,6 +181,8 @@
     <Content Include="Models\Model1.edmx.diagram">
       <DependentUpon>Model1.edmx</DependentUpon>
     </Content>
+    <Content Include="App_Data\sampledb.bacpac" />
+    <None Include="Properties\PublishProfiles\AzStudentAPp2000 - Web Deploy.pubxml" />
     <None Include="Properties\PublishProfiles\AzStudentAPp20210224072648 - Web Deploy.pubxml" />
     <None Include="Properties\PublishProfiles\WebApp-32o2x4n7f6xvc - Web Deploy.pubxml" />
     <None Include="Scripts\jquery-3.3.1.intellisense.js" />
@@ -216,9 +218,7 @@
     <Content Include="Views\StudentInfoes\Edit.cshtml" />
     <Content Include="Views\StudentInfoes\Index.cshtml" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="App_Data\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff2" />
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
